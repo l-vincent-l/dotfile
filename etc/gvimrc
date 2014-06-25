@@ -11,6 +11,8 @@ elseif has("gui_gtk2")
 elseif has("x11")
 elseif has("gui_win32")
 end
+autocmd VimEnter * NERDTree
+autocmd VimEnter * wincmd p
 
 "colorscheme ir_black
 
